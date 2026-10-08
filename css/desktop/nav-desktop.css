@@ -1,0 +1,505 @@
+
+.navdesktop {
+    width: 645px;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    font-size: 14px;
+    font-family: vazir;
+    font-weight: bold;
+    color: #58595B;
+    z-index: 50;
+    margin-top: 40px;
+    margin-left: 500px;
+    margin-right: 190px;
+    margin-bottom: 15px;
+
+    /* men */
+    .nav-link-men {
+        position: relative;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: #58595B;
+    }
+
+    .sub-nav-men {
+        position: absolute;
+        transition: all linear 800ms;
+        width: 85vw;
+        height: 264px;
+        right: -21vw;
+        top: 23px;
+        display: none;
+        font-size: 13px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        z-index: 50;
+        background-color: #ffffffe0;
+        text-decoration: none;
+        color: #58595B;
+    }
+
+    .nav-link-men:hover .sub-nav-men {
+        display: flex;
+    }
+
+    .nav-title-men {
+        padding: 0;
+        text-decoration: none;
+        text-align: center;
+        color: #58595B;
+        position: absolute;
+        font-size: 13px;
+        left: -30x;
+        transition: all linear 1s;
+        width: 33px;
+    }
+
+    .sub-sub-nav {
+
+        height: 100%;
+        width: 1300px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        margin-right: 80px;
+        margin-left: 80px;
+        gap: 12px;
+    }
+
+    .nav-a-men {
+        text-decoration: none;
+        color: rgb(19, 18, 18);
+        font-weight: bold;
+        padding-left: 30px;
+
+    }
+
+    .nav-a-men:hover {
+        color: #EB1C23;
+    }
+
+    .nav-a-men2 {
+        text-decoration: none;
+        color: #58595B;
+        padding-left: 30px;
+        font-weight: normal;
+
+    }
+
+    .nav-a-men2:hover {
+        color: #EB1C23;
+    }
+
+    .hover-link {
+        display: none;
+        width: 100%;
+        height: 2px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #302f2f;
+        position: absolute;
+        z-index: 100;
+
+    }
+
+    .nav-title-men:hover .hover-link {
+        display: block;
+    }
+
+    .nav-title-men:hover {
+        color: #000000;
+    }
+
+
+    /* women */
+    .nav-link-women {
+        position: relative;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: #58595B;
+    }
+
+    .sub-nav-women {
+        position: absolute;
+        transition: all linear 800ms;
+        width: 85vw;
+        height: 262px;
+        right: -26vw;
+        top: 23px;
+        display: none;
+        font-size: 13px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        z-index: 50;
+        background-color: #ffffffe0;
+        text-decoration: none;
+        color: #58595B;
+
+    }
+
+    .nav-link-women:hover .sub-nav-women {
+        display: flex;
+    }
+
+    .nav-title-women {
+        width: 45px;
+        text-decoration: none;
+        color: #58595B;
+        position: absolute;
+        transition: all linear 1s;
+        text-align: center;
+        font-size: 13px;
+        padding: 0;
+        right: -10px;
+    }
+
+    .sub-sub-nav {
+
+        height: 100%;
+        width: 1300px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        margin-right: 80px;
+        margin-left: 80px;
+        gap: 12px;
+    }
+
+    .nav-a-women {
+        text-decoration: none;
+        color: rgb(19, 18, 18);
+        font-weight: bold;
+        padding-left: 30px;
+
+    }
+
+    .nav-a-women:hover {
+        color: #EB1C23;
+    }
+
+    .nav-a-women2 {
+        text-decoration: none;
+        color: #58595B;
+        padding-left: 30px;
+        font-weight: normal;
+
+    }
+
+    .nav-a-women2:hover {
+        color: #EB1C23;
+    }
+
+    .hover-link {
+        display: none;
+        width: 100%;
+        height: 2px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #302f2f;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .nav-title-women:hover .hover-link {
+        display: block;
+    }
+
+    .nav-title-women:hover {
+        color: #000000;
+    }
+
+
+    /* chidren */
+    .nav-link-children {
+        position: relative;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: #58595B;
+    }
+
+    .sub-nav-children {
+        position: absolute;
+        transition: all linear 800ms;
+        width: 85vw;
+        height: 264px;
+        right: -32vw;
+        top: 23px;
+        display: none;
+        font-size: 13px;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        z-index: 50;
+        background-color: #ffffffe0;
+        text-decoration: none;
+        color: #58595B;
+
+    }
+
+    .nav-link-children:hover .sub-nav-children {
+        display: flex;
+    }
+
+    .nav-title-children {
+        width: 35px;
+        text-decoration: none;
+        color: #58595B;
+        position: absolute;
+        font-size: 13px;
+        transition: all linear 800ms;
+        padding: 0;
+    }
+
+    .hover-link {
+        display: none;
+        width: 100%;
+        height: 1px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #383838;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .nav-title-children:hover .hover-link {
+        display: block;
+    }
+
+    .nav-title-children:hover {
+        color: #000000;
+    }
+
+    .sub-sub-nav {
+
+        height: 100%;
+        width: 1300px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        margin-right: 80px;
+        margin-left: 80px;
+        gap: 12px;
+    }
+
+    .nav-a-children {
+        text-decoration: none;
+        color: rgb(19, 18, 18);
+        font-weight: bold;
+        padding-left: 30px;
+
+    }
+
+    .nav-a-children:hover {
+        color: #EB1C23;
+    }
+
+    .nav-a-children2 {
+        text-decoration: none;
+        color: #58595B;
+        padding-left: 30px;
+        font-weight: normal;
+
+    }
+
+    .nav-a-children2:hover {
+        color: #EB1C23;
+    }
+
+    /* product */
+    .nav-link-product {
+        position: relative;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+        color: #58595B;
+    }
+
+    .sub-nav-product {
+        position: absolute;
+        transition: all linear 800ms;
+        width: 85vw;
+        height: 264px;
+        right: -37vw;
+        top: 23px;
+        font-size: 13px;
+        display: none;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        padding: 40px;
+        z-index: 50;
+        background-color: #ffffffe0;
+        text-decoration: none;
+        color: #58595B;
+
+    }
+
+    .nav-link-product:hover .sub-nav-product {
+        display: flex;
+    }
+
+    .nav-title-product {
+        width: 65px;
+        padding: 0;
+        text-decoration: none;
+        color: #58595B;
+        position: absolute;
+        font-size: 13px;
+        transition: all linear 1s;
+    }
+
+    .sub-sub-nav1 {
+
+        height: 100%;
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column wrap;
+        margin-right: 80px;
+        margin-left: 80px;
+        gap: 12px;
+    }
+
+    .nav-a-product {
+        text-decoration: none;
+        color: rgb(19, 18, 18);
+        font-weight: bold;
+        padding-left: 30px;
+
+    }
+
+    .nav-a-product:hover {
+        color: #EB1C23;
+    }
+
+    .hover-link {
+        display: none;
+        width: 100%;
+        height: 2px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #383838;
+        position: absolute;
+        z-index: 100;
+    }
+
+    .nav-title-product:hover .hover-link {
+        display: block;
+    }
+
+    .nav-title-product:hover {
+        color: #000000;
+    }
+
+    /* collection */
+
+    .nav-title-collection {
+        width: 120px;
+        text-decoration: none;
+        color: #58595B;
+        padding: 0;
+        font-size: 13px;
+        padding-right: 10px;
+        position: absolute;
+        transition: all linear 1s;
+
+    }
+
+    .hover-link-collection {
+        display: none;
+        width: 72%;
+        height: 2px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #58595B;
+        position: absolute;
+    }
+
+    .nav-title-collection:hover .hover-link-collection {
+        display: block;
+    }
+
+    .nav-title-collection:hover {
+        color: #000000;
+    }
+
+    /* weblag */
+
+    .nav-title-weblage {
+        width: 110px;
+        padding: 0;
+        text-decoration: none;
+        padding-right: 45px;
+        color: #58595B;
+        position: absolute;
+        font-size: 13px;
+        transition: all linear 800ms;
+
+    }
+
+    .hover-link-weblage {
+        display: none;
+        width: 50%;
+        height: 2px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #383838;
+        position: absolute;
+    }
+
+    .nav-title-weblage:hover .hover-link-weblage {
+        display: block;
+    }
+
+    .nav-title-weblage:hover {
+        color: #000000;
+    }
+
+    /* order */
+    .nav-title-order {
+        width: 130px;
+        text-decoration: none;
+        color: #58595B;
+        position: absolute;
+        font-size: 12px;
+        transition: all linear 1s;
+        padding-right: 35px;
+
+    }
+
+    .hover-link-order {
+        display: none;
+        width: 70%;
+        height: 2px;
+        bottom: -10px;
+        border-radius: 10px;
+        background-color: #58595B;
+        position: absolute;
+    }
+
+    .nav-title-order:hover .hover-link-order {
+        display: block;
+    }
+
+    .nav-title-order:hover {
+        color: #000000;
+    }
+
+
+
+
+
+
+
+}

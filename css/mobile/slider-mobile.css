@@ -1,0 +1,22 @@
+.sectiondesktop{
+    display: none;
+}
+
+.sectionmobile{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+     padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 45px;
+   
+
+    img{
+       width: 100%;
+        height: auto;
+    }
+    overflow-x: hidden;
+}

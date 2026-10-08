@@ -1,0 +1,118 @@
+.headerdesktop {
+    display: none;
+}
+
+.headermobile {
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 90px;
+    border-bottom: 1px solid #e4dfdf;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .hambergermobile {
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 10px;
+
+        .hamberger {
+            width: 25px;
+            height: 20px;
+            top: 20px;
+            right: 25px;
+        }
+    }
+
+    .logomobile {
+        width: 120px;
+        height: 32px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .svgmobile {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        flex-flow: row nowrap;
+        gap: 3%;
+        padding-right: 30px;
+
+        .svgmobile1 {
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: row nowrap;
+            padding-left: 6px;
+        }
+
+        .svgmob1 {
+            width: 21px;
+            height: 21px;
+            align-items: center;
+            display: inline-block;
+            vertical-align: super;
+        }
+
+        .svgmob3 {
+            width: 21px;
+            height: 21px;
+            align-items: center;
+            vertical-align: super;
+            display: none;
+        }
+
+        .svgmobile1:hover .svgmob1 {
+            display: none;
+
+        }
+
+        .svgmobile1:hover .svgmob3 {
+            display: inline-block;
+
+        }
+
+        .svgmobile2 {
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: row nowrap;
+            padding-left: 1px;
+            padding-right: 0;
+        }
+
+        .svgmob2 {
+            width: 23px;
+            height: 23px;
+            align-items: center;
+            display: inline-block;
+            vertical-align: super;
+        }
+
+        .svgmob4 {
+            width: 23px;
+            height: 23px;
+            align-items: center;
+            display: none;
+            vertical-align: super;
+
+        }
+
+        .svgmobile2:hover .svgmob2 {
+            display: none;
+
+        }
+
+        .svgmobile2:hover .svgmob4 {
+            display: inline-block;
+
+        }
+    }
+}

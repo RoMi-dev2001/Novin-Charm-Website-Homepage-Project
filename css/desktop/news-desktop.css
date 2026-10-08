@@ -1,0 +1,153 @@
+.news-paper-mobile{
+  display: none;
+}
+
+.news-paper-desktop {
+  margin-top: 40px;
+  width: 100%;
+  height: 600px;
+  background-color: #F3F3F3;
+
+
+  .title-desktop-news {
+    color: #EB1C23;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+
+  .mySwiper-news {
+    bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    .swiper-slide {
+      text-align: center;
+      width: 100%;
+      height: 500px;
+      font-size: 18px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: flex-start;
+      background-color: #fff;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .card-news {
+
+
+
+      .news {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        flex-flow: row nowrap;
+      }
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        overflow: hidden;
+
+
+      }
+
+      .date {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 20px;
+        width: 60px;
+        height: 80px;
+        text-align: center;
+        text-wrap: wrap;
+        font-size: 12px;
+        font-weight: 300;
+        background-color: #afa8a8;
+        line-height: 1;
+        color: #F3F3F3;
+        font-family: vazir;
+
+        span {
+          display: block;
+          margin-bottom: 7px
+        }
+      }
+
+      a {
+        text-decoration: none;
+
+
+        p {
+          font-family: "vazir";
+          font-size: 13px;
+          color: #58595B;
+          display: flex;
+          flex-flow: row nowrap;
+          text-wrap: wrap;
+          padding-right: 10px;
+          padding-top: 10px;
+
+        }
+
+        h3 {
+          font-family: "vazir";
+          font-size: 18px;
+          font-weight: bold;
+          color: #58595B;
+          display: flex;
+          flex-flow: row nowrap;
+          text-wrap: wrap;
+          padding-right: 10px;
+          padding-left: 10px;
+        }
+
+        h4 {
+          font-family: "vazir";
+          font-size: 13px;
+          color: #58595B;
+          display: flex;
+          flex-flow: row nowrap;
+          text-wrap: wrap;
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-bottom: 400px;
+
+        }
+      }
+
+    }
+
+
+  }
+}
+
+
+.date span:first-child {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 0.5
+}
+
+p:hover .card-news {
+  color: #EB1C23;
+}
+
+h3:hover .card-news {
+  color: #EB1C23;
+}

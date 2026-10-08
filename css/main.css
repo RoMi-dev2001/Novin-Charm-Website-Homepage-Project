@@ -1,0 +1,33 @@
+@import url(./reset.css);
+@import 'animate.css';
+
+
+/* desktop */
+@import url(./desktop/header-desktop.css) screen and (min-width:992px);
+@import url(./desktop/nav-desktop.css) screen and (min-width:992px);
+@import url(./desktop/slider-desktop.css) screen and (min-width:992px);
+@import url(./desktop/product-men-desktop.css) screen and (min-width:992px);
+@import url(./desktop/product-women-desktop.css) screen and (min-width:992px);
+@import url(./desktop/product-bag-desktop.css) screen and (min-width:992px);
+@import url(./desktop/product-shoes-desktop.css) screen and (min-width:992px);
+@import url(./desktop/product-shoes-women-desktop.css) screen and (min-width:992px);
+@import url(./desktop/search-desktop.css) screen and (min-width:992px);
+@import url(./desktop/frosh-desktop.css) screen and (min-width:992px);
+@import url(./desktop/news-desktop.css) screen and (min-width:992px);
+@import url(./desktop/footer-desktop.css) screen and (min-width:992px);
+@import url(./desktop/arrowup-desktop.css) screen and (min-width:992px);
+
+
+/* mobile */
+@import url(./mobile/header-mobile.css) screen and (max-width:992px);
+@import url(./mobile/nav-mobile.css) screen and (max-width:992px);
+@import url(./mobile/slider-mobile.css) screen and (max-width:992px);
+@import url(./mobile/frosh-mobile.css) screen and (max-width:992px);
+@import url(./mobile/product-men-mobile.css) screen and (max-width:992px);
+@import url(./mobile/product-women-mobile.css) screen and (max-width:992px);
+@import url(./mobile/product-bag-mobile.css) screen and (max-width:992px);
+@import url(./mobile/product-shoes-mobile.css) screen and (max-width:992px);
+@import url(./mobile/product-shoes-women-mobile.css) screen and (max-width:992px);
+@import url(./mobile/search-mobile.css) screen and (max-width:992px);
+@import url(./mobile/news-mobile.css) screen and (max-width:992px);
+@import url(./mobile/footer-mobile.css) screen and (max-width:992px);

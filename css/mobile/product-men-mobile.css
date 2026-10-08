@@ -1,0 +1,201 @@
+.title-desktop-men {
+    display: none;
+}
+
+.product-desktop {
+    display: none;
+}
+
+.title-mobile-men {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: vazir;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+
+    h2 {
+        display: flex;
+        border-left: 1px solid rgb(217, 217, 217);
+        font-size: 18px;
+        justify-content: flex-start;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        text-wrap: nowrap;
+        padding-left: 5px;
+        line-height: 20px;
+    }
+
+    .sub-title-men {
+        display: flex;
+        flex-flow: row nowrap;
+
+        .h5 {
+            color: black;
+            font-size: 13px;
+            line-height: 30px;
+            text-decoration: none;
+            text-align: center;
+            display: flex;
+            padding-right: 90px;
+        }
+
+        .left1 {
+            width: 20px;
+            display: inline-block;
+            padding-right: 5px;
+
+        }
+
+        .left2 {
+            width: 20px;
+            display: none;
+            padding-right: 5px;
+        }
+    }
+
+    .sub-title-men:hover .h5 {
+        color: #EB1C23;
+    }
+
+    .sub-title-men:hover .left1 {
+        display: none;
+    }
+
+    .sub-title-men:hover .left2 {
+        display: inline-block;
+    }
+
+    .sub-sub-men {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        font-family: vazir;
+        gap: 15px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        .h4 {
+            display: flex;
+            line-height: 20px;
+            font-size: 12px;
+            color: #EB1C23;
+            border-bottom: 1.5px solid #EB1C23;
+            font-weight: bold;
+            padding-bottom: 1px;
+            text-align: center;
+
+
+        }
+
+        .h3 {
+            display: flex;
+            line-height: 20px;
+            font-size: 12px;
+            color: rgb(168, 168, 168);
+            border-bottom: 1.5px solid rgb(197, 195, 195);
+            padding-bottom: 1px;
+            text-align: center;
+
+        }
+
+    }
+
+
+
+
+
+
+
+}
+
+.mySwiper-mobile {
+
+    margin-bottom: 30px;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-flow: row nowrap;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+
+
+    .card-men {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        font-family: "vazir";
+        font-size: 12px;
+
+        .card-men-img {
+            display: block;
+            overflow: hidden;
+            max-width: 200px;
+            align-items: center;
+            height: auto;
+            object-fit: cover;
+
+
+            img {
+                width: 200px;
+                height: 270px;
+            }
+
+        }
+
+
+        .price {
+            display: flex;
+            flex-flow: row nowrap;
+            color: #EB1C23;
+            gap: 6px;
+            font-size: 12px;
+        }
+
+        .card-title {
+            color: #444;
+            font-size: 12px;
+            font-weight: bold;
+
+        }
+
+        .price del {
+
+            color: #707070;
+            font-size: 12px;
+        }
+    }
+}
+
+.card-men-img:hover img {
+
+    border-bottom: 2px solid #EB1C23;
+
+}
+
+.swiper-slide:hover .card-title {
+    color: #EB1C23;
+
+}

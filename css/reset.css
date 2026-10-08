@@ -1,0 +1,41 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "vazir";
+    src: url(../font/vazir-font-v16.1.0/vazir-font-v16.1.0/new/Vazir.eot);
+    src: url(../font/vazir-font-v16.1.0/vazir-font-v16.1.0/new/Vazir.ttf);
+    src: url(../font/vazir-font-v16.1.0/vazir-font-v16.1.0/new/Vazir.woff);
+    src: url(../font/vazir-font-v16.1.0/vazir-font-v16.1.0/new/Vazir.woff2);
+}
+
+/* پدر اصلی */
+.wrapper {
+
+    width: 100%;
+    background: #FFFFFF;
+    font-family: vazir;
+    direction: rtl;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    /* مادر اصلی */
+    .container {
+
+        width: 100%;
+        padding-right: 40px;
+        padding-left: 40px;
+        background: #FFFFFF;
+        font-family: vazir;
+        direction: rtl;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}

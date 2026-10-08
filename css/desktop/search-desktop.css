@@ -1,0 +1,56 @@
+.search-mobile{
+    display: none;
+}
+
+.search-desktop{
+  width: 700px;
+    height: 250px;
+    direction: ltr;
+    margin-top: 40px;
+    background-color: #DCDCDC;
+    display: flex;
+    transition: all 1s linear;
+    animation: move 1s linear 1 alternate forwards;
+
+
+
+    .subsearch {
+        width: 500px;
+        height: 50px;
+        background-color: #58595B;
+        margin-top: 90px;
+        display: flex;
+        margin-left: 300px;
+
+
+     .search-text{
+        width: inherit;
+            font-size: 12px;
+            font-family: vazir;
+            color: white;
+            line-height: 60px;
+            text-align: right;
+            line-height: 50px;
+            padding-right: 8px;
+        }
+
+        .bi-bi-geol5{
+      
+            width: 20px;
+            height: 20px;
+          margin-top: 15px;
+          padding-left: 6px;
+
+        }
+    }
+}
+
+@keyframes move {
+   0%{
+    width: 0px;
+   }
+
+    100%{
+    width: 100%;
+   }
+}

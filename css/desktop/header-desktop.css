@@ -1,0 +1,420 @@
+.headermobile {
+    display: none;
+}
+
+.headerdesktop {
+    width: 100%;
+    height: 50px;
+    background-color: #EEEEEE;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 1px solid #DDDDDD;
+    position: fixed;
+    z-index: 100;
+
+    .setting {
+        width: 33.3%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+
+        /* مربوط به اولین خونه از سمت راست هدر */
+        .subset1 {
+            width: 55px;
+            color: #58595B;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            padding: 14px;
+            justify-content: center;
+            transition: all linear 600ms;
+            border-left: 1px solid #DDDDDD;
+            border-right: 1px solid #DDDDDD;
+            transition: all 500ms linear;
+
+
+            .textset1 p {
+                font-family: "vazir";
+                font-size: 12px;
+                font-weight: bold;
+                color: #58595B;
+                display: flex;
+                flex-flow: row;
+                text-wrap: nowrap;
+            }
+
+            .svgset1 {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                gap: 4px;
+                flex-flow: row nowrap;
+
+
+                .bi-bi-globe1 {
+                    display: inline-block;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+
+                .bi-bi-globe2 {
+                    display: none;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+            }
+
+
+
+        }
+
+        .subset1:hover p {
+
+            color: #EB1C23;
+
+        }
+
+        .subset1:hover .bi-bi-globe1 {
+            display: none;
+
+        }
+
+        .subset1:hover .bi-bi-globe2 {
+            display: inline-block;
+
+        }
+
+        .subset1:hover {
+            background-color: #F5F5F5;
+        }
+
+        /* سه خونه بعدی */
+        .subset2 {
+            width: 45px;
+            color: #58595B;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            padding: 14px;
+            justify-content: center;
+            transition: all linear 600ms;
+            border-left: 1px solid #DDDDDD;
+            transition: all 500ms linear;
+
+
+            .textset2 {
+                font-family: "vazir";
+                font-size: 11px;
+                font-weight: bold;
+                color: #58595B;
+                display: flex;
+                flex-flow: row;
+                text-wrap: nowrap;
+            }
+
+            .svgset2 {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                gap: 4px;
+                flex-flow: row nowrap;
+
+
+                .bi-bi-geo-alt-fill1 {
+                    display: inline-block;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+
+                .bi-bi-geo-alt-fill2 {
+                    display: none;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+            }
+
+
+            .svgset3 {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                gap: 4px;
+                flex-flow: row nowrap;
+
+
+                .bi-bi-house-door-fill1 {
+                    display: inline-block;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+
+                .bi-bi-house-door-fill2 {
+                    display: none;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+            }
+
+            .subset2:nth-child(4) {
+                border-left: none;
+
+            }
+
+            .subset2:nth-child(5) {
+                border-left: none;
+
+            }
+        }
+
+        .subset2:hover {
+            background-color: #F5F5F5;
+        }
+
+        .textset2:hover {
+            color: #EB1C23;
+        }
+
+        .subset2:hover .bi-bi-geo-alt-fill1 {
+            display: none;
+        }
+
+        .subset2:hover .bi-bi-geo-alt-fill2 {
+            display: inline-block;
+        }
+
+        .subset2:hover .bi-bi-house-door-fill1 {
+            display: none;
+        }
+
+        .subset2:hover .bi-bi-house-door-fill2 {
+            display: inline-block;
+        }
+
+        /* مربوط به باشگاه مشتریان */
+        .subset3 {
+            width: 55px;
+            color: #58595B;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            gap: 8px;
+            transition: all 500ms linear;
+            margin-right: 12px;
+
+            .textset3 {
+                font-family: "vazir";
+                font-size: 11px;
+                font-weight: bold;
+                color: #58595B;
+                display: flex;
+                flex-flow: row;
+                text-wrap: nowrap;
+            }
+
+            .svgset3 {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                gap: 4px;
+                flex-flow: row nowrap;
+
+
+                .bi-bi-people-fill1 {
+                    display: inline-block;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+
+                .bi-bi-people-fill2 {
+                    display: none;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+            }
+
+        }
+
+        .subset3:hover .textset3 {
+            color: #EB1C23;
+        }
+
+        .subset3:hover .bi-bi-people-fill1 {
+            display: none;
+
+        }
+
+        .subset3:hover .bi-bi-people-fill2 {
+            display: inline-block;
+        }
+
+    }
+
+    .logo {
+        width: 33.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 30px;
+
+        .header img {
+            width: 18px;
+            height: 18px;
+        }
+
+    }
+
+    .login {
+        width: 33.3%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 3%;
+
+        .textlog {
+            width: 65px;
+            text-decoration: none;
+            color: #58595B;
+            font-size: 11px;
+            font-family: "vazir";
+            display: flex;
+            text-wrap: nowrap;
+        }
+
+        .textlog:hover {
+            color: #EB1C23;
+        }
+
+        .sublog {
+            width: 50px;
+            color: #58595B;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            padding: 14px;
+            gap: 10px;
+            justify-content: center;
+            transition: all linear 600ms;
+
+            .svglog11 {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                gap: 4px;
+                flex-flow: row nowrap;
+
+
+                .bi-bi-geo1 {
+                    display: inline-block;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+
+                .bi-bi-geo2 {
+                    display: none;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+            }
+
+            .svglog11:hover .bi-bi-geo1 {
+                display: none;
+
+            }
+
+            .svglog11:hover .bi-bi-geo2 {
+                display: inline-block;
+            }
+
+            .svglog21 {
+                width: 20px;
+                height: 20px;
+                display: flex;
+                gap: 4px;
+                flex-flow: row nowrap;
+
+
+                .bi-bi1 {
+                    display: inline-block;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+
+                .bi-bi2 {
+                    display: none;
+                    vertical-align: super;
+                    margin-right: 3px;
+                    margin-left: -2px;
+                }
+            }
+
+            .svglog21:hover .bi-bi1 {
+                display: none;
+
+            }
+
+            .svglog21:hover .bi-bi2 {
+                display: inline-block;
+            }
+        }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,46 @@
+.search-desktop {
+    display: none;
+}
+
+.search-mobile {
+    width: 400px;
+    height: 200px;
+    direction: ltr;
+    margin-top: 260px;
+    background-color: #DCDCDC;
+    display: flex;
+    transition: all 1s linear;
+    animation: move 1s linear 1 alternate forwards;
+    margin-right: 20px;
+
+    .subsearch {
+        width: 300px;
+        height: 50px;
+        background-color: #58595B;
+        margin-top: 70px;
+        margin-left: 50px;
+        display: flex;
+
+
+        .search-text {
+            font-size: 11px;
+            font-family: vazir;
+            color: white;
+            line-height: 60px;
+            text-align: right;
+            line-height: 50px;
+            padding-left: 25px;
+        }
+
+    }
+}
+
+@keyframes move {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 400px;
+    }
+}

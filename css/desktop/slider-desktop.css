@@ -1,0 +1,56 @@
+
+.sectionmobile {
+  display: none;
+}
+
+.sectiondesktop {
+  width: 100%;
+  height: 415px;
+  display: flex;
+  gap: 20px;
+  z-index: 2;
+  margin-bottom: 40px;
+
+  .slider {
+    width: 75%;
+    height: 100%;
+  
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+
+    }
+
+  }
+
+  .gift {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap: 20px;
+
+    img {
+      width: 100%;
+      height: 50%;
+    }
+  }
+}
